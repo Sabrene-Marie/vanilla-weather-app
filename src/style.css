@@ -1,23 +1,27 @@
 h1 {
 text-align: center;
 padding: 40px;
-font-family: 'Lovers Quarrel', cursive;
+font-family: 'Fleur De Leah', cursive;
 font-weight: 500;
 font-size: 100px;
 }
-
+h2{
+    text-align: center;
+   font-family: 'Corben', cursive;
+ 
+}
+h3{
+    font-size: 70px;
+}
 h4{
     text-align: center;
-    font-family: 'Charm', cursive;
-
-}
-
+    font-family: 'Rye', cursive;}
 
 .mirror{
     display: block;
     margin: 0 auto;
-    text-align: center;
-    position:
+text-align: center;
+
 }
 
 .weather-city{
@@ -27,9 +31,10 @@ bottom: 888px;
 
 .weather-temp{
     position: relative;
-    bottom: 895px;
-    font-size: 90px;
-    font-family: 'Charm', cursive;
+    bottom: 892px;
+    font-family: 'Rye', cursive;
+  
+    
 }
 
 .weather-details{
@@ -38,18 +43,13 @@ bottom: 898px;
 }
 
 li{
+
     list-style: none;
     text-align: center;
     margin: 0;
-    padding 0;
-    font-family: 'Charm', cursive;
+font-family: 'Corben', cursive;
 line-height: 40px;
+padding-right: 10px;
 
-    
-}
-
-ul{
-    margin: 0 auto;
-    padding 0;
 }
 

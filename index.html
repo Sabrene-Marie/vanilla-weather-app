@@ -18,22 +18,41 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Corben&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body> 
     <div class="container">
+      <div class="weather-app-wrapper"> 
     <h1>✨Magic Mirror Weather App✨</h1>
-    <h4>Magic mirror on the screen... show me the weather!</h4>
+    <h2>Magic Mirror on the wall... what's the fairest weather of them all?  </h2>
 <div class="mirror">
 <img width="900px" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Forig13.deviantart.net%2F2dd2%2Ff%2F2016%2F234%2Fd%2F8%2Fsnow_white_blank_mirror_by_mohammedanis-daeswdr.png&f=1&nofb=1"> 
-<h1 class= "weather-city">Sydney</h1>
-<h2 class= "weather-temp"> 25°C | F° </h2>
-<h3 class="weather-details">
+<div class= "weather-city" >
+<h1 id= "city" > Sydney</h1>
+</div>
+<div class= "weather-temp">
+<h3 id="temperature"> 25°C | °F </h3>
+</div>
+<h5 class="weather-details">
   <ul>
     <li>
       Monday 4:00pm
     </li>
-    <li>
-      Sunny <img height="50px" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Fsun%2Fsun_PNG13416.png&f=1&nofb=1">
+    <li id="description"> 
+Sunny:     <img height="50px" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Fsun%2Fsun_PNG13416.png&f=1&nofb=1">
     </li>
   <li>
     Precipitation: 0%
@@ -45,33 +64,14 @@
   Wind: 2km/h 
 </li>  
 </ul>
-</h3>
+</h5>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <small>
-       <a href="https://github.com/Sabrene-Marie/vanilla-weather-app.git" target="_blank">Open-source code </a> by Sabrene-Marie Papas
-      </small>
+</div>
     </div>
     <script src="src/app.js"></script>
     </div>
+    <small> <a href="https://github.com/Sabrene-Marie/vanilla-weather-app.git" target="_blank">Open-source code </a> by Sabrene-Marie Papas</small>
   </body>
+
 </html>
 
