@@ -33,7 +33,10 @@ bottom: 888px;
     position: relative;
     bottom: 892px;
     font-family: 'Rye', cursive;
-  
+    font-size: 45px;
+    text-align: center;
+    padding-left: 70px;
+ 
     
 }
 
@@ -48,8 +51,9 @@ text-transform: capitalize;
     text-align: center;
     margin: 0;
 font-family: 'Corben', cursive;
-line-height: 40px;
+line-height: 60px;
 padding-right: 10px;
+
 
 }
 
