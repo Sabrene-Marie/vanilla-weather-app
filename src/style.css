@@ -1,59 +1,111 @@
 h1 {
-text-align: center;
-padding: 40px;
-font-family: 'Fleur De Leah', cursive;
-font-weight: 500;
-font-size: 90px;
+  text-align: center;
+  padding: 40px;
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 500;
+  font-size: 80px;
+  color: white;
 }
-h2{
-    text-align: center;
-   font-family: 'Rye', cursive;
- 
+h2 {
+  text-align: center;
+  font-family: "Rye", cursive;
+  color: black;
 }
-h3{
-    font-size: 70px;
+h3 {
+  font-size: 70px;
 }
-h4{
-    text-align: center;
-    font-family: 'Rye', cursive;}
-
-.mirror{
-    display: block;
-    margin: 0 auto;
-text-align: center;
-
+h4 {
+  text-align: center;
+  font-family: "Rye", cursive;
 }
-
-.weather-city{
-position: relative;
-bottom: 888px;
+p {
+  text-align: center;
+  background-color: gold;
 }
-
-.weather-temp{
-    position: relative;
-    bottom: 892px;
-    font-family: 'Rye', cursive;
-    font-size: 45px;
-    text-align: center;
-    padding-left: 70px;
- 
-    
+.mirror {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
 }
 
-.weather-details{
-position: relative;
-bottom: 898px;
+.weather-city {
+  position: relative;
+  text-align: center;
+  bottom: 888px;
 }
 
-li{
-text-transform: capitalize;
-    list-style: none;
-    text-align: center;
-    margin: 0;
-font-family: 'Corben', cursive;
-line-height: 60px;
-padding-right: 10px;
-
-
+.weather-temp {
+  position: relative;
+  bottom: 892px;
+  font-family: "Rye", cursive;
+  font-size: 45px;
+  text-align: center;
+  padding-left: 70px;
+  color: black;
 }
 
+.weather-details {
+  position: relative;
+  bottom: 898px;
+}
+
+li {
+  text-transform: capitalize;
+  position: relative;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  font-family: "Rye", cursive;
+  line-height: 80px;
+  padding-right: 10px;
+  color: black;
+}
+
+button {
+  position: relative;
+  bottom: 920px;
+  left: 600px;
+  border-radius: 20px;
+  color: white;
+  background: #4d0f6d;
+  padding: 10px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: gold;
+  border: black;
+  color: #4d0f6d;
+}
+
+.weather-app-wrapper {
+}
+body {
+  background: radial-gradient(
+    circle at 50.4% 50.5%,
+    rgb(251, 32, 86) 0%,
+    rgb(135, 2, 35) 90%
+  );
+}
+
+form {
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+  border-style: ridge;
+  border-color: gold;
+  background-color: #4d0f6d;
+  color: white;
+  width: 700px;
+  padding: 10px;
+}
+
+.form-control {
+  padding: 10px;
+  background-color: white;
+  outline-color: black;
+}
+
+.form-control:hover {
+  background-color: gold;
+}
