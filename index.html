@@ -12,85 +12,110 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="src/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Corben&display=swap" rel="stylesheet">
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rye&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Corben&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
-  <body> 
+  <body>
     <div class="container">
-      <div class="weather-app-wrapper"> 
-    <h1>✨Magic Mirror Weather App✨</h1>
-    <h2>Magic Mirror on the wall... what's the fairest weather of them all?  </h2>
-    <form id="search-form">
-<input 
-                  type="search"
-                  placeholder="Type a city.."
-                  class="form-control"
-                  id="city-input"
-                  autocomplete="off"
-                />
-                 <input
-                  type="submit"
-                  value="✨Summon Weather✨"
-                  class="form-control"
-                />
-
-
-    </form>
-<div class="mirror">
-<img width="900px" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Forig13.deviantart.net%2F2dd2%2Ff%2F2016%2F234%2Fd%2F8%2Fsnow_white_blank_mirror_by_mohammedanis-daeswdr.png&f=1&nofb=1"> 
-<div class= "weather-city" >
-<h1 id="city"> Sydney</h1>
-</div>
-<div class= "weather-temp">
-<strong id="temperature"> </strong> 
-<span class="units"> °C |
-<img src="https://openweathermap.org/img/wn/04d@2x.png"
-    id="icon"
-    >
-</div>
-<h5 class="weather-details">
-  <ul>
-    <li id="date">
-      Monday 4:00pm
-    </li>
-    <li id="description"> 
-    </li>
-<li>
-  Humidity: <span id="humidity">  73 </span>%
-</li>
-<li>
-  Wind: <span id="wind"> 2 </span> km/h
-</li>  
-</ul>
-</h5>
-</div>
-</div>
+      <div class="weather-app-wrapper">
+        <h1>✨Magic Mirror Weather App✨</h1>
+        <h2>
+          Magic Mirror on the wall... what's the fairest weather of them all?
+        </h2>
+        <form id="search-form">
+          <input
+            type="search"
+            placeholder="Type a city.."
+            class="form-control"
+            id="city-input"
+            autocomplete="off"
+          />
+          <input
+            type="submit"
+            value="✨Summon Weather✨"
+            class="form-control"
+          />
+        </form>
+        <div class="mirror">
+          <div class="mirror-bg">
+            <img
+              width="900px"
+              src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Forig13.deviantart.net%2F2dd2%2Ff%2F2016%2F234%2Fd%2F8%2Fsnow_white_blank_mirror_by_mohammedanis-daeswdr.png&f=1&nofb=1"
+            />
+          </div>
+          <div class="weather-city">
+            <h1 id="city">Sydney</h1>
+          </div>
+          <div class="weather-temp">
+            <strong id="temperature"> </strong>
+            <span class="units">
+              °C |
+              <img
+                src="https://openweathermap.org/img/wn/04d@2x.png"
+                id="icon"
+              />
+            </span>
+          </div>
+          <div class="weather-details">
+            <ul>
+              <li>
+                <h5 id="date">Monday 4:00pm</h5>
+              </li>
+              <li><h5 id="description"></h5></li>
+              <li>
+                <h5>Humidity: <span id="humidity"> 73 </span>%</h5>
+              </li>
+              <li>
+                <h5>Wind: <span id="wind"> 2 </span> km/h</h5>
+              </li>
+            </ul>
+          </div>
+          <button id="current-location-button">✨Current Location✨</button>
+        </div>
+      </div>
     </div>
-    <div class="btn" >
-    <button id="current-location-button">✨Current Location✨</button>
-    </div>
+
     <script src="src/app.js"></script>
-    </div>
-    <p> <a href="https://github.com/Sabrene-Marie/vanilla-weather-app.git" target="_blank">Open-source code </a> by Sabrene-Marie Papas</p>
+    <p>
+      <a
+        href="https://github.com/Sabrene-Marie/vanilla-weather-app.git"
+        target="_blank"
+        >Open-source code
+      </a>
+      by Sabrene-Marie Papas
+    </p>
   </body>
-
 </html>
-
