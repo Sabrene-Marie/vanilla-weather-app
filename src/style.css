@@ -34,6 +34,7 @@ p {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 0;
 }
 
 .weather-city {
@@ -83,7 +84,10 @@ button {
   color: white;
   background: #4d0f6d;
   padding: 10px;
+  z-index: 1;
+  position: relative;
 }
+
 button:hover {
   cursor: pointer;
   background-color: gold;
