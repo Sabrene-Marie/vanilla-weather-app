@@ -95,8 +95,6 @@ button:hover {
   color: #4d0f6d;
 }
 
-.weather-app-wrapper {
-}
 body {
   background: radial-gradient(
     circle at 50.4% 50.5%,
@@ -131,7 +129,6 @@ form {
   margin-top: 20px;
   text-align: center;
   color: white;
-  padding-left: 300px;
 }
 
 .weather-forecast-date {
